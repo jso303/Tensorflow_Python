@@ -12,4 +12,6 @@ Tensorflow_Python
 
 
 
-## 학습에 이용한 영상은 유튜브 [봉수골 개발자 이선비](https://www.youtube.com/watch?v=MMEoEJIXd7E&list=PLl1irxoYh2wzOOU9hvJqMYc215wAlxrpp&index=2) 입니다.
+## 참조
+
+학습에 이용한 영상은 유튜브 [봉수골 개발자 이선비](https://www.youtube.com/watch?v=MMEoEJIXd7E&list=PLl1irxoYh2wzOOU9hvJqMYc215wAlxrpp&index=2) 입니다.
