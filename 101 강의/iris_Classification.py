@@ -33,7 +33,13 @@ model = tf.keras.models.Model(X, Y)
 model.compile(loss='categorical_crossentropy')
 
 # 모델 학습시키기
-model.fit(input, output, epochs=100)
+model.fit(input, output, epochs=100, verbose=0)
+model.fit(input, output, epochs=1)
 
-print(model.predict(input[:5]))
-print(model.predict(output[:5]))
+# 데이터 앞부분 5개
+print("input : ", model.predict(input[:5]))
+print("output : ", output[:5])
+
+# 데이터 뒷부분 5개
+print("input : ", model.predict(input[-5:]))
+print("output : ", output[-5:])
